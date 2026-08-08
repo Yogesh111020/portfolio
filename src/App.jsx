@@ -15,7 +15,7 @@ const capabilities = [
 ]
 
 const cases = [
-  { id: 'A', title: 'Deployment velocity', metric: '30%', label: 'faster', text: 'Reworked GitLab CI/CD pipelines to reduce release time and manual deployment steps.', stack: ['GitLab', 'AWS', 'Automation'] },
+  { id: 'A', title: 'Deployment velocity', metric: '30%', label: 'faster', text: 'Optimized GitLab CI/CD pipelines to accelerate releases by 30% while reducing manual deployment effort.', stack: ['GitLab', 'AWS', 'Automation'] },
   { id: 'B', title: 'Production platforms', metric: '3+', label: 'years', text: 'Delivered and supported Laravel applications with MySQL data layers and AWS infrastructure.', stack: ['Laravel', 'MySQL', 'AWS'] },
   { id: 'C', title: 'Team enablement', metric: '02', label: 'mentees', text: 'Improved engineering consistency through reviews, standards, testing guidance and documentation.', stack: ['Reviews', 'Testing', 'Leadership'] },
 ]
@@ -65,7 +65,7 @@ function App() {
         <div className="profile-no">01 / PROFILE</div>
         <div className="profile-layout">
           <div className="profile-copy" data-reveal>
-            <p className="status"><i /> Available for software opportunities</p>
+            <p className="status"><i /> Open to building reliable, scalable software.</p>
             <h1>Yogesh<br /><span>Mandavkar.</span></h1>
             <p className="role-line">Senior software developer building reliable web systems and the infrastructure that keeps them moving.</p>
             <div className="profile-actions"><a href="mailto:yogeshmandavkar123456@gmail.com">Start a conversation <Icon /></a><button onClick={() => setResume(true)}>View resume</button></div>
